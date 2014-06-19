@@ -22,6 +22,15 @@
 		89D38C5E19524B3A0080DD1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D38C3D19524B390080DD1B /* UIKit.framework */; };
 		89D38C6619524B3A0080DD1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89D38C6419524B3A0080DD1B /* InfoPlist.strings */; };
 		89D38C6819524B3A0080DD1B /* AL_NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D38C6719524B3A0080DD1B /* AL_NotesTests.m */; };
+		89D38C7419524D050080DD1B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D38C7319524D050080DD1B /* Parse.framework */; };
+		89D38C7619524E1D0080DD1B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D38C7519524E1D0080DD1B /* CFNetwork.framework */; };
+		89D38C7819524E670080DD1B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D38C7719524E670080DD1B /* SystemConfiguration.framework */; };
+		89D38C7A19524EED0080DD1B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D38C7919524EED0080DD1B /* MobileCoreServices.framework */; };
+		89D38C7C195298050080DD1B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D38C7B195298050080DD1B /* MessageUI.framework */; };
+		89D38C7F19529AFE0080DD1B /* paperBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89D38C7E19529AFE0080DD1B /* paperBG.jpg */; };
+		89D38C83195380160080DD1B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D38C82195380160080DD1B /* Reachability.m */; };
+		89D38C851953905A0080DD1B /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D38C841953905A0080DD1B /* Icon-60@2x.png */; };
+		89D38C87195392040080DD1B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D38C86195392040080DD1B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +65,16 @@
 		89D38C6319524B3A0080DD1B /* AL_NotesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AL_NotesTests-Info.plist"; sourceTree = "<group>"; };
 		89D38C6519524B3A0080DD1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89D38C6719524B3A0080DD1B /* AL_NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AL_NotesTests.m; sourceTree = "<group>"; };
+		89D38C7319524D050080DD1B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = AL_Notes/Parse.framework; sourceTree = "<group>"; };
+		89D38C7519524E1D0080DD1B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		89D38C7719524E670080DD1B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		89D38C7919524EED0080DD1B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		89D38C7B195298050080DD1B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		89D38C7E19529AFE0080DD1B /* paperBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paperBG.jpg; sourceTree = "<group>"; };
+		89D38C81195380160080DD1B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		89D38C82195380160080DD1B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		89D38C841953905A0080DD1B /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		89D38C86195392040080DD1B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +82,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D38C7C195298050080DD1B /* MessageUI.framework in Frameworks */,
+				89D38C7A19524EED0080DD1B /* MobileCoreServices.framework in Frameworks */,
+				89D38C7819524E670080DD1B /* SystemConfiguration.framework in Frameworks */,
+				89D38C7619524E1D0080DD1B /* CFNetwork.framework in Frameworks */,
 				89D38C3C19524B390080DD1B /* CoreGraphics.framework in Frameworks */,
 				89D38C3E19524B390080DD1B /* UIKit.framework in Frameworks */,
 				89D38C3A19524B390080DD1B /* Foundation.framework in Frameworks */,
+				89D38C7419524D050080DD1B /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +128,11 @@
 		89D38C3819524B390080DD1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89D38C7B195298050080DD1B /* MessageUI.framework */,
+				89D38C7919524EED0080DD1B /* MobileCoreServices.framework */,
+				89D38C7719524E670080DD1B /* SystemConfiguration.framework */,
+				89D38C7519524E1D0080DD1B /* CFNetwork.framework */,
+				89D38C7319524D050080DD1B /* Parse.framework */,
 				89D38C3919524B390080DD1B /* Foundation.framework */,
 				89D38C3B19524B390080DD1B /* CoreGraphics.framework */,
 				89D38C3D19524B390080DD1B /* UIKit.framework */,
@@ -115,6 +144,7 @@
 		89D38C3F19524B390080DD1B /* AL_Notes */ = {
 			isa = PBXGroup;
 			children = (
+				89D38C8019537FF70080DD1B /* includes */,
 				89D38C4819524B390080DD1B /* AppDelegate.h */,
 				89D38C4919524B390080DD1B /* AppDelegate.m */,
 				89D38C4B19524B390080DD1B /* Main.storyboard */,
@@ -131,6 +161,7 @@
 		89D38C4019524B390080DD1B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				89D38C7D19529AF00080DD1B /* images */,
 				89D38C4119524B390080DD1B /* AL_Notes-Info.plist */,
 				89D38C4219524B390080DD1B /* InfoPlist.strings */,
 				89D38C4519524B390080DD1B /* main.m */,
@@ -155,6 +186,25 @@
 				89D38C6419524B3A0080DD1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89D38C7D19529AF00080DD1B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				89D38C86195392040080DD1B /* Default-568h@2x.png */,
+				89D38C841953905A0080DD1B /* Icon-60@2x.png */,
+				89D38C7E19529AFE0080DD1B /* paperBG.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		89D38C8019537FF70080DD1B /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				89D38C81195380160080DD1B /* Reachability.h */,
+				89D38C82195380160080DD1B /* Reachability.m */,
+			);
+			name = includes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D38C5519524B390080DD1B /* Images.xcassets in Resources */,
+				89D38C851953905A0080DD1B /* Icon-60@2x.png in Resources */,
 				89D38C4419524B390080DD1B /* InfoPlist.strings in Resources */,
 				89D38C4D19524B390080DD1B /* Main.storyboard in Resources */,
+				89D38C7F19529AFE0080DD1B /* paperBG.jpg in Resources */,
+				89D38C87195392040080DD1B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +311,7 @@
 				89D38C5019524B390080DD1B /* MasterViewController.m in Sources */,
 				89D38C4619524B390080DD1B /* main.m in Sources */,
 				89D38C5319524B390080DD1B /* DetailViewController.m in Sources */,
+				89D38C83195380160080DD1B /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +436,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/michaeladkins/Downloads,
+					"$(PROJECT_DIR)/AL_Notes",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AL_Notes/AL_Notes-Prefix.pch";
 				INFOPLIST_FILE = "AL_Notes/AL_Notes-Info.plist";
@@ -395,6 +454,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/michaeladkins/Downloads,
+					"$(PROJECT_DIR)/AL_Notes",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AL_Notes/AL_Notes-Prefix.pch";
 				INFOPLIST_FILE = "AL_Notes/AL_Notes-Info.plist";

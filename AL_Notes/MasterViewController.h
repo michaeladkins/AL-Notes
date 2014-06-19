@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <UIAlertViewDelegate>{
+    
+}
+- (void)checkNetworkStatus:(NSNotification *)networkNotice;
+- (void)updateNote:(NSNotification*)noteData;
+- (void)deleteNote:(NSNotification *)noteData;
+- (void)refreshData:(BOOL)wasPulledDown;
+- (void)insertNewObject:(id)sender;
+
 
 @end

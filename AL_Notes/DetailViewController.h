@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController<UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextView *noteData;
 @property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+- (IBAction)actionBtn:(id)sender;
+-(void)mailCurrentNote;
+-(void)trashNote;
 @end
