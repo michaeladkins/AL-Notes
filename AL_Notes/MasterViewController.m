@@ -136,14 +136,14 @@
 
 - (void)deleteNote:(NSNotification *)noteData
 {
-    if (networkIsActive == NO){
-        UIAlertView *alertview = [[UIAlertView alloc] initWithTitle:@"We need a network connection to do our job here!" message:@"\n" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
-        [alertview show];
-    }else{
+//    if (networkIsActive == NO){
+//        UIAlertView *alertview = [[UIAlertView alloc] initWithTitle:@"We need a network connection to do our job here!" message:@"\n" delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+//        [alertview show];
+//    }else{
         // Remove it from Parse
-        PFObject *noteInfo = [_objects objectAtIndex:(int)selectedIndex];
-        [noteInfo deleteInBackground];
-    }
+    PFObject *noteInfo = [_objects objectAtIndex:(int)selectedIndex];
+    [noteInfo deleteInBackground];
+//    }
     [_objects removeObjectAtIndex:(int)selectedIndex];
     [self.tableView reloadData];
 }
